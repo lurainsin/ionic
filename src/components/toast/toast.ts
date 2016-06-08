@@ -17,8 +17,7 @@ import {ViewController} from '../nav/view-controller';
  * screen. It can be used to provide feedback about an operation or to
  * display a system message. The toast appears on top of the app's content,
  * and can be dismissed by the app to resume user interaction with
- * the app. It includes a backdrop, which can optionally be clicked to
- * dismiss the toast.
+ * the app.
  *
  * ### Creating
  * All of the toast options should be passed in the first argument of
@@ -30,8 +29,7 @@ import {ViewController} from '../nav/view-controller';
  * ### Dismissing
  * The toast can be dismissed automatically after a specific amount of time
  * by passing the number of milliseconds to display it in the `duration` of
- * the toast options. It can also be dismissed by clicking on the backdrop,
- * unless `enableBackdropDismiss` is set to `false` upon creation. If `showCloseButton`
+ * the toast options. If `showCloseButton`
  * is set to true, then the close button will dismiss the toast. To dismiss
  * the toast after creation, call the `dismiss()` method on the Toast instance.
  * The `onDismiss` function can be called to perform an action after the toast
